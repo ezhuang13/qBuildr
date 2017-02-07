@@ -9,5 +9,7 @@ Green: Adds the song to the end of the playist
 Red: Skip the song
 The blue, green, and red buttons are modeled off of the Tinder UI (swiping up, right, and left respectively)
 
+When running the program, you must specify one command line argument which is your Spotify username. You may be taken to a page to grant permissions for the app to modify your account the first time you run it.
+
 Required modules:
 sys, random, pprint, spotipy, urllib, tkinter, and PIL
