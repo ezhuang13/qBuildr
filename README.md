@@ -3,10 +3,11 @@ Builds a playlist on your Spotify account by presenting shuffled sets of songs t
 
 Great if you've ever found yourself wanting to listen to a specific playlist but do not want to waste time searching through the entire playlist, adding songs to a queue one at a time.
 The songs are displayed, with their cover art, on a window. There are four buttons on the window:
-Yellow: Close the window
-Blue: Adds the song to the front of the playlist
-Green: Adds the song to the end of the playist
-Red: Skip the song
+
+* Yellow: Close the window
+* Blue: Adds the song to the front of the playlist
+* Green: Adds the song to the end of the playist
+* Red: Skip the song
 The blue, green, and red buttons are modeled off of the Tinder UI (swiping up, right, and left respectively)
 
 When running the program, you must specify one command line argument which is your Spotify username. You may be taken to a page to grant permissions for the app to modify your account the first time you run it.
