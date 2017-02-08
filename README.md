@@ -1,5 +1,5 @@
 # qBuildr
-Builds a playlist on your Spotify account by presenting shuffled sets of songs that can be easily skipped or added. Includes other functionalities such as the ability to easy add specific songs by typing in the name.
+Builds a playlist on your Spotify account by presenting shuffled sets of songs that can be easily skipped or added. Includes other functionalities such as the ability to add multiple songs at once by typing in the name.
 
 Great if you've ever found yourself wanting to listen to a specific playlist but do not want to waste time searching through the entire playlist, adding songs to a queue one at a time.
 The songs are displayed, with their cover art, on a window. There are four buttons on the window:
@@ -8,9 +8,12 @@ The songs are displayed, with their cover art, on a window. There are four butto
 * Blue: Adds the song to the front of the playlist
 * Green: Adds the song to the end of the playist
 * Red: Skip the song
+
 The blue, green, and red buttons are modeled off of the Tinder UI (swiping up, right, and left respectively)
 
-When running the program, you must specify one command line argument which is your Spotify username. You may be taken to a page to grant permissions for the app to modify your account the first time you run it.
+The program expects one command line argument which is your Spotify username. You may be taken to a page to grant permissions for the app to modify your account the first time you run it.
 
-Required modules:
+####Required modules####
 sys, random, pprint, spotipy, urllib, tkinter, and PIL
+
+Note: this is simply a prototype to show the functionality of what will soon be a fully developed Android App.
