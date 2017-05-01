@@ -13,7 +13,7 @@ The blue, green, and red buttons are modeled off of the Tinder UI (swiping up, r
 
 The program expects one command line argument which is your Spotify username. You may be taken to a page to grant permissions for the app to modify your account the first time you run it.
 
-####Required modules####
+#### Required modules
 sys, random, pprint, spotipy, urllib, tkinter, and PIL
 
 Note: this is simply a prototype to show the functionality of what will soon be a fully developed Android App.
