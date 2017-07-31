@@ -73,8 +73,8 @@ class App():
 
 #info for QBuildr
 scope = 'playlist-modify-private playlist-read-private playlist-modify-public streaming'
-client_id='36db8e86be2b4d69bd9095b092eac617'
-client_secret='987dd190af9444cea7eeaea8da56135c'
+client_id='#################'
+client_secret='#################'
 redirect_uri='http://localhost:3000/'
 
 #authentification of token and account
